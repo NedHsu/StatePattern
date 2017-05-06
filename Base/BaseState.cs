@@ -10,11 +10,18 @@ namespace StatePattern.Base
 {
     public abstract class BaseState : IState
     {
-        Enums.State value = 0;
+        protected Enums.State value = 0;
+
+        protected StateContext _context = null;
 
         public BaseState(StateContext context)
         {
+            _context = context;
+        }
 
+        public int GetValue()
+        {
+            return (int)this.value;
         }
 
         public abstract void Handle(int Value);

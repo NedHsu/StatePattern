@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace StatePattern.Interface
 {
-    interface IState
+    public interface IState
     {
         void Handle(int Value);
 
+        int GetValue();
     }
 }
