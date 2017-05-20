@@ -12,7 +12,7 @@ namespace StatePattern.Models.States
     {
         public StateA(StateContext context) : base(context)
         {
-            base.value = Enums.State.StateA;
+            base.value = Enum.State.StateA;
         }
 
         public override void Handle(int Value)

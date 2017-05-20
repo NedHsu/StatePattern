@@ -10,7 +10,7 @@ namespace StatePattern.Base
 {
     public abstract class BaseState : IState
     {
-        protected Enums.State value = 0;
+        protected Enum.State value = 0;
 
         protected StateContext _context = null;
 

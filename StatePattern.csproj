@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseState.cs" />
-    <Compile Include="Enums\State.cs" />
+    <Compile Include="Enum\State.cs" />
     <Compile Include="Interface\IState.cs" />
     <Compile Include="Models\Contexts\StateContext.cs" />
     <Compile Include="Models\States\StateA.cs" />
