@@ -1,6 +1,6 @@
 # StatePattern (狀態模式)
 
-### Definition in wiki: 
+### Definition on wiki: 
 > The state pattern is a behavioral software design pattern that implements a state machine in an object-oriented way.
 
 ### Structure:
